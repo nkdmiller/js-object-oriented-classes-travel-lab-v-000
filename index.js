@@ -4,7 +4,7 @@ class Driver{
     this.startDate = new Date(startDate)
   }
  
-  veto() {
+  yearsExperienceFromBeginningOf(date) {
     return `No, I must disagree`;
   }
   approve() {
