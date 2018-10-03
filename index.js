@@ -1,5 +1,5 @@
 class Driver{
-  constructor(name, startDate, yearsExperienceFromBeginningOf) {
+  constructor(name, startDate) {
     this.name = name;
     this.homeState = homeState;
     this.training = training;
