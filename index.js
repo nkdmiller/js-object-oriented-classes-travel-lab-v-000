@@ -23,4 +23,8 @@ class Route{
   let horizDistance = eastWest.indexOf(this.endingLocation.horizontal) - eastWest.indexOf(this.beginningLocation.horizontal);
   return vertDistance + horizDistance;
   }
+  
+  estimatedTime(){
+    
+  }
 }
