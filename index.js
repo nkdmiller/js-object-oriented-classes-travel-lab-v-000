@@ -1,8 +1,7 @@
 class Driver{
   constructor(name, startDate) {
     this.name = name;
-    this.homeState = homeState;
-    this.training = training;
+    this.startDate = new Date
   }
  
   veto() {
