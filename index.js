@@ -24,7 +24,12 @@ class Route{
   return vertDistance + horizDistance;
   }
   
-  estimatedTime(){
-    
+  estimatedTime(peakTime){
+    if (peakTime === true){
+      return blocksTravelled() / 2;
+    }
+    else {
+      return blocksTravelled() / 3;  
+    }
   }
 }
