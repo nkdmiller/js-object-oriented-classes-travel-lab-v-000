@@ -1,5 +1,5 @@
-class BoardMember {
-  constructor(name, homeState, training) {
+class Driver{
+  constructor(name, startDate, training) {
     this.name = name;
     this.homeState = homeState;
     this.training = training;
